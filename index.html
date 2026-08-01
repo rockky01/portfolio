@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rocky Kumar | Dev Developer Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/images/metaprofile.png" />
+
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      // Nayi Public Key yahan update kar di gayi hai
+      emailjs.init({
+        publicKey: "DphkarqAnFmHYBtud",
+      });
+    })();
+  </script>
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Mesh Background -->
+  <div class="aurora-bg">
+    <div class="aurora-blob aurora-1"></div>
+    <div class="aurora-blob aurora-2"></div>
+    <div class="aurora-blob aurora-3"></div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="glass-nav">
+    <div class="container nav-container">
+      <div class="logo-wrapper">
+        <h2 class="logo">Rocky<span>.dev</span></h2>
+      </div>
+
+      <nav class="site-nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link nav-cta">Let's Talk</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+        </button>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <!-- Full Width Ticker -->
+      <div class="hero-ticker-wrapper">
+        <div class="ticker-content">
+          <span> Full-Time Opportunities • UI/UX Enthusiast • Open to Freelance Projects • Startup Collaborations •
+            Technical Consulting</span>
+          <span> Full-Time Opportunities • UI/UX Enthusiast • Open to Freelance Projects • Startup Collaborations •
+            Technical Consulting </span>
+        </div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 id="typing-title">Hi, I'm <span class="name-gradient">Rocky Kumar</span></h1>
+          <h3 class="fade-up" style="--delay: 0.2s">PHP / Laravel Developer</h3>
+
+          <div class="hero-description fade-up" style="--delay: 0.3s">
+            <p>
+              I am a PHP/Laravel Developer with 3+ years of experience in building secure, scalable, and
+              high-performance web applications. I have worked on government projects, enterprise applications, and
+              business management systems using Laravel, CodeIgniter, and Core PHP.
+
+            </p>
+            <p>
+              I specialize in backend development, RESTful API integration, authentication systems, payment gateway
+              integration, database optimization, and role-based access control. From planning and development to
+              deployment and maintenance, I manage complete application development.
+
+            </p>
+            <p>
+              My focus is on writing clean, maintainable code, improving application performance, following best
+              security practices, and delivering reliable software solutions that solve real business problems.
+            </p>
+          </div>
+
+          <div class="hero-btns fade-up" style="--delay: 0.4s">
+            <a href="assets/resume/Govinda_Ray_CV.pdf" class="btn btn-primary" download>
+              <span>Download CV</span>
+              <i class="fa-solid fa-download"></i>
+            </a>
+            <div class="social-links">
+              <a href="https://github.com/rockky01" target="_blank" class="social-icon"><i
+                  class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/rocky-kumar-yadav-laravel/" target="_blank" class="social-icon"><i
+                  class="fa-brands fa-linkedin"></i></a>
+              <a href="https://wa.me/918252082493" target="_blank" class="social-icon"><i
+                  class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="laptop-mockup">
+
+            <div class="laptop-screen">
+
+              <div class="browser-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+
+                <div class="browser-url">
+                  rocky.dev/dashboard
+                </div>
+              </div>
+
+              <div class="dashboard-ui">
+
+                <!-- Sidebar -->
+                <div class="dashboard-sidebar">
+
+                  <div class="dashboard-logo">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Rocky.dev</span>
+                  </div>
+
+                  <ul>
+                    <li class="active">
+                      <i class="fa-solid fa-house"></i>
+                      Dashboard
+                    </li>
+
+                    <li>
+                      <i class="fa-solid fa-folder-open"></i>
+                      Projects
+                    </li>
+
+                    <li>
+                      <i class="fa-solid fa-users"></i>
+                      Clients
+                    </li>
+
+                    <li>
+                      <i class="fa-solid fa-server"></i>
+                      APIs
+                    </li>
+
+                    <li>
+                      <i class="fa-solid fa-chart-line"></i>
+                      Analytics
+                    </li>
+
+                    <li>
+                      <i class="fa-solid fa-gear"></i>
+                      Settings
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <!-- Content -->
+
+                <div class="dashboard-content">
+
+                  <div class="dashboard-topbar">
+
+                    <div>
+
+                      <h3>Welcome Back 👋</h3>
+
+                      <small>
+                        Senior PHP Laravel Developer
+                      </small>
+
+                    </div>
+
+                    <div class="dashboard-user">
+
+                      <img src="assets/images/profile2.jpeg">
+
+                      <div>
+
+                        <strong>Rocky Kumar</strong>
+
+                        <br>
+
+                        <small style="color:#16a34a;">
+                          ● Online
+                        </small>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Cards -->
+
+                  <div class="dashboard-cards">
+
+                    <div class="dashboard-card">
+
+                      <i class="fa-solid fa-folder-open"></i>
+
+                      <h4>Projects</h4>
+
+                      <span>15+</span>
+
+                    </div>
+
+                    <div class="dashboard-card">
+
+                      <i class="fa-solid fa-users"></i>
+
+                      <h4>Clients</h4>
+
+                      <span>20+</span>
+
+                    </div>
+
+                    <div class="dashboard-card">
+
+                      <i class="fa-solid fa-code"></i>
+
+                      <h4>REST APIs</h4>
+
+                      <span>50+</span>
+
+                    </div>
+
+                    <div class="dashboard-card">
+
+                      <i class="fa-solid fa-award"></i>
+
+                      <h4>Experience</h4>
+
+                      <span>3+ Years</span>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Chart -->
+
+                  <div class="dashboard-chart">
+
+                    <h4 style="margin-bottom:15px;">
+                      Project Growth
+                    </h4>
+
+                    <div class="chart-bars">
+
+                      <span style="height:35%"></span>
+                      <span style="height:55%"></span>
+                      <span style="height:70%"></span>
+                      <span style="height:45%"></span>
+                      <span style="height:80%"></span>
+                      <span style="height:95%"></span>
+                      <span style="height:65%"></span>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Table -->
+
+                  <table class="dashboard-table">
+
+                    <thead>
+
+                      <tr>
+
+                        <th>Project</th>
+                        <th>Technology</th>
+                        <th>Status</th>
+
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+
+                        <td>TAP-RISE</td>
+
+                        <td>Laravel 11</td>
+
+                        <td>
+                          <span class="status active">
+                            Live
+                          </span>
+                        </td>
+
+                      </tr>
+
+                      <tr>
+
+                        <td>EXIM Logistics</td>
+
+                        <td>Laravel 12</td>
+
+                        <td>
+                          <span class="status active">
+                            Active
+                          </span>
+                        </td>
+
+                      </tr>
+
+                      <tr>
+
+                        <td>QCC</td>
+
+                        <td>Core PHP</td>
+
+                        <td>
+                          <span class="status completed">
+                            Completed
+                          </span>
+                        </td>
+
+                      </tr>
+
+                      <tr>
+
+                        <td>BIPF</td>
+
+                        <td>CodeIgniter 4</td>
+
+                        <td>
+                          <span class="status completed">
+                            Completed
+                          </span>
+                        </td>
+
+                      </tr>
+
+                      <tr>
+
+                        <td>RKSK</td>
+
+                        <td>CodeIgniter 4</td>
+
+                        <td>
+                          <span class="status completed">
+                            Completed
+                          </span>
+                        </td>
+
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="laptop-base"></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section section-padding reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="title">About Me</h2>
+        </div>
+        <div class="about-content grid-2">
+          <div class="about-text card glass">
+            <p>
+              I am a PHP/Laravel Developer with 3+ years of experience in designing and developing secure, scalable, and
+              high-performance web applications.
+
+            </p>
+            <p>
+              My expertise includes Laravel, Core PHP, CodeIgniter 4, MySQL, RESTful API development, authentication,
+              role-based access control (RBAC), payment gateway integration, and third-party API integration.
+            </p>
+            <p>
+              I have worked on Government of India projects, enterprise applications, workforce certification systems,
+              and CSR management platforms. I focus on writing clean, maintainable code, optimizing database
+              performance, and following best security practices.
+            </p>
+            <p>I am passionate about backend development, solving complex business problems, and delivering reliable
+              software solutions that create real business value.</p>
+          </div>
+          <div class="about-stats grid-2">
+            <div class="stat-card glass reveal-child">
+              <img src="https://cdn-icons-png.flaticon.com/512/3281/3281289.png" alt="Experience">
+              <h3>3+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat-card glass reveal-child">
+              <img src="https://cdn-icons-png.flaticon.com/512/1356/1356479.png" alt="Projects">
+              <h3>8+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat-card glass reveal-child">
+              <img src="img/laravel.svg" alt="Leavel">
+              <h3>Laravel</h3>
+              <p>Framework</p>
+            </div>
+            <div class="stat-card glass reveal-child">
+              <img src="img/api.svg" alt="iOS">
+              <h3>REST API</h3>
+              <p>Development</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-padding reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="title">Technical Skills</h2>
+        </div>
+        <div class="skills-grid grid-dynamic">
+          <!-- 1. Flutter -->
+          <div class="skill-card glass reveal-child" data-label="LANGUAGE">
+            <img src="img/php.svg" alt="PHP">
+            <h4>PHP</h4>
+            <span>(Core PHP)</span>
+          </div>
+          <!-- 2. Laravel -->
+          <div class="skill-card glass reveal-child" data-label="FRAMEWORK">
+            <img src="img/laravel.svg" alt="Laravel">
+            <h4>Laravel</h4>
+            <span>Laravel 8 to 12</span>
+          </div>
+          <!-- 3. CodeIgniter -->
+          <div class="skill-card glass reveal-child" data-label="FRAMEWORK">
+            <img src="img/codeigniter.svg" alt="CodeIgniter">
+            <h4>CodeIgniter</h4>
+            <span>(CodeIgniter 3 & 4)</span>
+          </div>
+          <!-- 4. REST API Integration -->
+          <div class="skill-card glass reveal-child" data-label="API">
+            <img src="https://cdn.simpleicons.org/postman/FF6C37" alt="REST API">
+            <h4>REST API</h4>
+            <span>RESTful Services</span>
+          </div>
+          <!-- 5. CSS3 -->
+          <div class="skill-card glass reveal-child" data-label="FRONTEND">
+            <img src="img/css.svg" alt="CSS3">
+            <h4>CSS3</h4>
+            <span>(Styling)</span>
+          </div>
+          <!-- 6. Bootstrap  -->
+          <div class="skill-card glass reveal-child" data-label="UI FRAMEWORK">
+            <img src="img/bootstrap.svg" alt="Bootstrap ">
+            <h4>Bootstrap 5</h4>
+            <span>Responsive Design</span>
+          </div>
+          <!-- 7. Payment Gateways -->
+          <div class="skill-card glass reveal-child" data-label="PAYMENTS">
+            <img src="https://cdn.simpleicons.org/razorpay/3395FF" alt="Payments">
+            <h4>Payment Gateways</h4>
+            <span>(Razorpay, PayU, PhonePe)</span>
+          </div>
+          <!-- 8. JavaScript -->
+          <div class="skill-card glass reveal-child" data-label="LANGUAGE">
+            <img src="img/javascript.svg" alt="JavaScript">
+            <h4>JavaScript</h4>
+            <span>ES6+</span>
+          </div>
+          <!-- 9. jQuery -->
+          <div class="skill-card glass reveal-child" data-label="LIBRARY">
+            <img src="img/jquery.svg" alt="jQuery">
+            <h4>jQuery</h4>
+            <span>(DOM & AJAX)</span>
+          </div>
+          <!-- 10. Push Notifications -->
+          <div class="skill-card glass reveal-child" data-label="NOTIFICATIONS">
+            <img src="https://cdn.simpleicons.org/firebase/FFCA28" alt="FCM">
+            <h4>Push Notification</h4>
+            <span>Firebase FCM</span>
+          </div>
+          <!-- 11. VCS -->
+          <div class="skill-card glass reveal-child" data-label="VERSION CONTROL">
+            <img src="https://cdn.simpleicons.org/github/181717" alt="GitHub">
+            <h4>Git, GitHub &</h4>
+            <span>Git Workflow</span>
+          </div>
+          <!-- 12. Deployment -->
+          <div class="skill-card glass reveal-child" data-label="DATABASE">
+            <img src="img/mysql.svg" alt="MySQL">
+            <h4>MySQL</h4>
+            <span>Relational DB</span>
+          </div>
+          <!-- 13. Google API Integration -->
+          <div class="skill-card glass reveal-child" data-label="INTEGRATION">
+            <img src="https://cdn.simpleicons.org/google/4285F4" alt="Google">
+            <h4>Google Api</h4>
+            <span>Maps, OAuth, Gmail</span>
+          </div>
+          <!-- 14. AI Module Integration -->
+          <div class="skill-card glass reveal-child" data-label="DESIGN TOOL">
+            <img src="img/figma.svg" alt="figma">
+            <h4>Figma</h4>
+            <span>UI/UX</span>
+          </div>
+          <!-- 15. Astrology API Integration -->
+          <div class="skill-card glass reveal-child" data-label="AUTOMATION">
+            <img src="img/laravel.svg" alt="Cron Jobs">
+            <h4>Cron Jobs</h4>
+            <span>Task Scheduling</span>
+          </div>
+          <div class="skill-card glass reveal-child" data-label="FRONTEND">
+            <img src="img/react.svg" alt="React js">
+            <h4>React</h4>
+            <span>React.js</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-padding reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="title">Education</h2>
+        </div>
+        <div class="education-grid">
+
+          <!-- MCA -->
+          <div class="edu-card glass reveal-child">
+            <div class="edu-icon">
+              <img src="img/cuicon.png" alt="Chandigarh University">
+            </div>
+            <div class="edu-content">
+              <h3>Master of Computer Applications (MCA)</h3>
+              <span class="edu-university">Chandigarh University, Mohali</span>
+              <span class="edu-date">2026 – Pursuing</span>
+            </div>
+          </div>
+          <!-- MCA -->
+          <div class="edu-card glass reveal-child">
+            <div class="edu-icon">
+              <img src="https://mmhapu.ac.in/web/images/logo.jpeg"
+                alt="Maulana Mazharul Haque Arabic & Persian University">
+            </div>
+            <div class="edu-content">
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <span class="edu-university">Maulana Mazharul Haque Arabic & Persian University, Patna</span>
+              <span class="edu-date">2022 – 2025</span>
+              <div class="edu-courses">🏆 75.13%</div>
+            </div>
+          </div>
+
+          <!-- Graduation -->
+          <div class="edu-card glass reveal-child">
+            <div class="edu-icon">
+              <img src="img/kunal-iti.png" alt="Kunal ITI">
+            </div>
+            <div class="edu-content">
+              <h3>Industrial Training Institute (ITI)</h3>
+              <span class="edu-university">Kunal ITI, Chapra, Bihar</span>
+              <span class="edu-date">2021 – 2023</span>
+              <div class="edu-courses">🏆 82.42%</div>
+            </div>
+          </div>
+
+          <!-- ADCA -->
+          <div class="edu-card glass reveal-child">
+            <div class="edu-icon">
+              <img src="img/bseb.png" alt="ADCA">
+            </div>
+            <div class="edu-content">
+              <h3>Class XII (Intermediate)</h3>
+              <span class="edu-university">T.P.S, Chapra, Bihar</span>
+              <span class="edu-date">2020 – 2021</span>
+              <div class="edu-courses">🏆 56.2%</div>
+            </div>
+          </div>
+
+          <!-- 12th -->
+          <div class="edu-card glass reveal-child">
+            <div class="edu-icon">
+              <img src="img/bseb.png" alt="BSEB">
+            </div>
+            <div class="edu-content">
+              <h3>Class X (Matriculation)</h3>
+              <span class="edu-university">Gagan Dev Narayan Singh High School, Saran</span>
+              <span class="edu-date">2018 – 2019</span>
+              <div class="edu-courses">🏆 56%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-padding reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="title">Work Experience</h2>
+        </div>
+        <div class="modern-timeline">
+          <!-- Previous Organization 2 -->
+          <div class="timeline-card reveal-child">
+            <div class="timeline-content-inner">
+              <div class="time-meta">
+                <div class="date-row">
+                  <span class="date">Feb 2026 – Present</span>
+                </div>
+                <h3 class="company-name">Max Transtech Limited</h3>
+                <div class="location"><i class="fa-solid fa-location-dot"></i> Gurugram, Haryana, India</div>
+              </div>
+              <div class="role-badge">Software Engineer</div>
+              <div class="content">
+                <ul>
+                  <li><i class="fa-solid fa-circle-check"></i> Developed and maintained scalable logistics and booking
+                    management systems using Laravel and PHP.</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Designed and integrated secure RESTful APIs for internal
+                    systems and third-party services.</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Optimized MySQL database performance through query
+                    tuning, indexing, and schema optimization.</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Built secure backend architecture following MVC and
+                    modular development practices.</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Collaborated with cross-functional teams to deliver
+                    reliable and high-performance enterprise
+                    applications.</li>
+                </ul>
+                <div class="tech-stack-mini">
+                  <span class="tech-tag-sm">Laravel(HMVC)</span>
+                  <span class="tech-tag-sm">PHP</span>
+                  <span class="tech-tag-sm">MySQL</span>
+                  <span class="tech-tag-sm">REST API</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Previous Organization 1 -->
+          <div class="timeline-card reveal-child">
+            <div class="timeline-content-inner">
+              <div class="time-meta">
+                <div class="date-row">
+                  <span class="date">May 2023 – Jan 2026</span>
+                </div>
+                <h3 class="company-name">Indev Consultancy Pvt. Ltd.</h3>
+                <div class="location"><i class="fa-solid fa-location-dot"></i> Noida, Uttar Pradesh, India</div>
+              </div>
+              <div class="role-badge">Software Developer (PHP / Laravel)</div>
+              <div class="content">
+                <ul>
+                  <li><i class="fa-solid fa-circle-check"></i> Developed scalable backend systems using Laravel and
+                    CodeIgniter 4.</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Designed and integrated RESTful APIs for enterprise and
+                    government projects.</li>
+                  <li><i class="fa-solid fa-circle-check"></i>Optimized MySQL queries and database structures to improve
+                    application performance.</li>
+                  <li><i class="fa-solid fa-circle-check"></i>Built authentication, authorization (RBAC), and secure
+                    data validation modules.</li>
+                  <li><i class="fa-solid fa-circle-check"></i>Worked on government and enterprise-level platforms
+                    including TAP-RISE, QCC, RKSK, and BIPF.</li>
+                  <li><i class="fa-solid fa-circle-check"></i>Collaborated with frontend developers and QA teams to
+                    deliver production-ready applications.</li>
+                </ul>
+                <div class="tech-stack-mini">
+                  <span class="tech-tag-sm">PHP(Core PHP)</span>
+                  <span class="tech-tag-sm">CodeIgniter 4</span>
+                  <span class="tech-tag-sm">Laravel</span>
+                  <span class="tech-tag-sm">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-padding reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="title">Live Completed Projects</h2>
+        </div>
+        <div class="projects-container">
+          <!-- Project Card 1 -->
+          <div class="project-item card glass reveal-child">
+            <div class="project-image-placeholder">
+              <img src="project-img/rksk.png" alt="AFHC App">
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">CodeIgniter 4</span>
+                <span class="tag">Government</span>
+                <span class="tag">MySQL</span>
+              </div>
+              <h3>AFHC – RKSK Health Management App (Govt. of India)</h3>
+              <p>
+                A large-scale government healthcare mobile application developed under the RKSK initiative by MoHFW,
+                with WHO support. Focuses on adolescent health tracking and secure data management.
+              </p>
+              <div class="project-actions">
+                <a href="https://rksk.in/" target="_blank" rel="noopener noreferrer" class="btn btn-sm glass-btn">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Visit Website
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-item card glass reveal-child">
+            <div class="project-image-placeholder">
+              <img src="project-img/tap-rise.png" alt="Our Green Planet">
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">Laravel 10</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">LMS</span>
+                <span class="tag">E-Commerce</span>
+              </div>
+              <h3>TAP-RISE</h3>
+              <p>
+                Enterprise business platform with LMS, Knowledge Management System, eCommerce, role-based access, PDF
+                reports, and secure admin dashboard.
+              </p>
+              <div class="project-actions">
+                <a href="https://tap-rise.in/" target="_blank" rel="noopener noreferrer" class="btn btn-sm glass-btn">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Visit Website
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-item card glass reveal-child">
+            <div class="project-image-placeholder">
+              <img src="project-img/mttl.png" alt="Talent Shorts">
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">Laravel 11</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">REST API</span>
+              </div>
+              <h3>EXIM Logistics Management System</h3>
+              <p>
+                Complete logistics management platform featuring shipment booking, vendor management, rate upload,
+                invoice generation, profit & loss tracking, and customer dashboard.
+              </p>
+              <div class="project-actions">
+                <a href="https://exim.maxtranstech.com/" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm glass-btn">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Visit Website
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 4 -->
+          <div class="project-item card glass reveal-child">
+            <div class="project-image-placeholder">
+              <img src="project-img/bipf.png" alt="Jaimru Text">
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">CodeIgniter 4</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">REST APIs</span>
+              </div>
+              <h3>BIPF Portal</h3>
+              <p>
+                NGO management portal with member management, reporting dashboards, attendance, document management, and
+                analytics.
+              </p>
+              <div class="project-actions">
+                <a href="https://stage-bipf.indevconsultancy.in/" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm glass-btn">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Visit Website
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 5 -->
+          <div class="project-item card glass reveal-child">
+            <div class="project-image-placeholder">
+              <img src="project-img/qcc.png" alt="NHI Advisor">
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">PHP </span>
+                <span class="tag">QR Verification</span>
+                <span class="tag">Blockchain API</span>
+              </div>
+              <h3>QCC Skill Certification Platform</h3>
+              <p>
+                Digital skill certification platform with QR verification, blockchain integration, PDF certificate
+                generation, and online validation.
+              </p>
+              <div class="project-actions">
+                <a href="https://qcc.uacuae.com/" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm glass-btn">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Visit Website
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-padding reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="title">Get In Touch</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Let's build something amazing together.</h3>
+            <p>I am currently open to new opportunities and freelance projects.</p>
+            <div class="contact-list">
+              <a href="mailto:rocky.kumar12raj2004@gmail.com" class="contact-item glass reveal-child">
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="text">
+                  <span>Email</span>
+                  <strong>rocky.kumar12raj2004@gmail.com</strong>
+                </div>
+              </a>
+              <a href="https://wa.me/918252082493" target="_blank" class="contact-item glass reveal-child">
+                <div class="icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="text">
+                  <span>WhatsApp/Call</span>
+                  <strong>+91 8252082493</strong>
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/rocky-kumar-yadav-laravel/" target="_blank"
+                class="contact-item glass reveal-child">
+                <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="text">
+                  <span>LinkedIn</span>
+                  <strong>Rocky Kumar</strong>
+                </div>
+              </a>
+              <a href="https://github.com/rockky01" target="_blank" class="contact-item glass reveal-child">
+                <div class="icon"><i class="fa-brands fa-github"></i></div>
+                <div class="text">
+                  <span>GitHub</span>
+                  <strong>govinda2004</strong>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <form id="contact-form" class="glass glass-form reveal-child">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="from_name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="user_email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="title" placeholder="Project Inquiry" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width" disabled>
+              <span class="btn-text">Send Message</span>
+              <div class="btn-loader"></div>
+            </button>
+            <p id="form-status" class="form-status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <h2 class="logo">Govinda<span>.dev</span></h2>
+        <div class="footer-socials">
+          <a href="https://github.com/govinda2004" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/govinda-ray-078734278" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Rocky Kumar. All rights reserved.</p>
+        <div class="visitor-counter">
+          <i class="fa-solid fa-eye"></i>
+          <span class="visitor-text">Total Visitor:</span>
+          <div class="count-badge">
+            <img
+              src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Frayg92641-rgb.github.io%2Fportfolio%2F&count_bg=%23027DFD&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"
+              alt="0" />
+          </div>
+        </div>
+        <p>🚀 Have an app idea? Let's build ❤️ something amazing together.</p>
+        <!--        <p>Built with ❤️ using HTML, CSS, and JS.</p>-->
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+
+
+  <script>
+    const dashboard = document.querySelector(".dashboard-content");
+
+    let direction = 1;
+
+    let scroll = setInterval(move, 30);
+
+    function move() {
+
+      dashboard.scrollTop += direction;
+
+      if (dashboard.scrollTop + dashboard.clientHeight >= dashboard.scrollHeight) {
+
+        direction = -1;
+
+      }
+
+      if (dashboard.scrollTop <= 0) {
+
+        direction = 1;
+
+      }
+
+    }
+
+    dashboard.addEventListener("mouseenter", () => {
+
+      clearInterval(scroll);
+
+    });
+
+    dashboard.addEventListener("mouseleave", () => {
+
+      scroll = setInterval(move, 30);
+
+    });
+  </script>
+</body>
+
+</html>
