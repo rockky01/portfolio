@@ -285,7 +285,7 @@ header.scrolled {
 .hero-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
-  gap: 4rem;
+  gap: 1rem;
   align-items: center;
 }
 
@@ -1896,7 +1896,7 @@ footer {
 
 .dashboard-ui {
   display: flex;
-  height: 360px;
+  height: 260px;
   background: #f8fafc;
   overflow: hidden;
 }
@@ -1907,7 +1907,7 @@ footer {
   width: 180px;
   background: #0f172a;
   color: #fff;
-  padding: 18px;
+  padding: 5px;
 }
 
 .dashboard-logo {
@@ -1998,45 +1998,44 @@ footer {
 }
 
 /* Cards */
-
-.dashboard-cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  margin-bottom: 15px;
-}
-
 .dashboard-card {
   background: #fff;
-  border-radius: 12px;
-  padding: 12px;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Vertical center */
+  align-items: center;
+  /* Horizontal center */
   text-align: center;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
-  transition: .3s;
+
+  min-height: 150px;
 }
 
 .dashboard-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-5px);
 }
 
 .dashboard-card i {
-  font-size: 22px;
+  font-size: 28px;
   color: #2563eb;
   margin-bottom: 10px;
 }
 
 .dashboard-card h4 {
-  margin: 0;
-  font-size: 13px;
-  color: #64748b;
+  margin: 8px 0;
+  font-size: 16px;
+  color: #475569;
 }
 
 .dashboard-card span {
-  display: block;
-  margin-top: 6px;
-  font-size: 24px;
-  color: #2563eb;
+  margin-top: 8px;
+  font-size: 34px;
   font-weight: 700;
+  color: #2563eb;
 }
 
 /* Chart */
